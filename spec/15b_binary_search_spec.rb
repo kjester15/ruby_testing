@@ -17,18 +17,18 @@ require_relative '../lib/15c_random_number'
 # has been renamed to BinarySearch, which is a more accurate description.
 
 # This spec file uses verifying doubles to help you get acquaintance with the
-# concept. Differently from the normal test double we've been using so far, 
+# concept. Differently from the normal test double we've been using so far,
 # a verifying double can produce an error if the method being stubbed does not
-# exist in the actual class. Verifying doubles are a great tool to use when 
-# you're doing integration testing and need to make sure that different classes 
+# exist in the actual class. Verifying doubles are a great tool to use when
+# you're doing integration testing and need to make sure that different classes
 # work together in order to fulfill some bigger computation.
 # https://rspec.info/features/3-12/rspec-mocks/verifying-doubles/
 
-# You should not use verifying doubles for unit testings. Unit testing relies 
+# You should not use verifying doubles for unit testings. Unit testing relies
 # on using doubles to test the object in isolation (i.e., not dependent on any
-# other object). One important concept to understand is that the BinarySearch 
+# other object). One important concept to understand is that the BinarySearch
 # or FindNumber class doesn't care if it is given an actual random_number class
-# object. It only cares that it is given an object that can respond to certain 
+# object. It only cares that it is given an object that can respond to certain
 # methods. This concept is called polymorphism.
 # https://www.geeksforgeeks.org/polymorphism-in-ruby/
 
